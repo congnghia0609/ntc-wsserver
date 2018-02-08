@@ -94,7 +94,7 @@
 					<archive>
 						<addMavenDescriptor>false</addMavenDescriptor>
 						<manifest>
-							<mainClass>com.uts.wsserver.WSServer</mainClass>
+							<mainClass>com.ntc.wsserver.WSServer</mainClass>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
 						</manifest>

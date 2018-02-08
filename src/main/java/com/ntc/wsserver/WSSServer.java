@@ -70,7 +70,7 @@ public class WSSServer extends WebSocketServer {
             System.out.println(">>>>> initSSL");
             // load up the key store
             String STORETYPE = "JKS";
-            String KEYSTORE = "/home/nghiatc/uts/uts-wsserver/cert/server-keystore.jks";
+            String KEYSTORE = "./cert/server-keystore.jks";
             String STOREPASSWORD = "storetest123";
             String KEYPASSWORD = "keytest123";
 

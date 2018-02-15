@@ -36,7 +36,7 @@ public class WSServer extends WebSocketServer {
      */
     public static void main(String[] args) {
         String host = "localhost";
-		int port = 15051;
+		int port = 8787;
 
 		WSServer server = new WSServer(new InetSocketAddress(host, port));
         //server.setWebSocketFactory(wsf);

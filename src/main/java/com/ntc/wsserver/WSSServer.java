@@ -50,7 +50,7 @@ public class WSSServer extends WebSocketServer {
      */
     public static void main(String[] args) {
         String host = "127.0.0.1";
-		int port = 15051;
+		int port = 8787;
 
 		WSSServer server = new WSSServer(new InetSocketAddress(host, port));
         server.initSSL(server);
